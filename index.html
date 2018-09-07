@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Гриша, хэлло</title>
+</head>
+<body>
+<p>Ну вот типа стартовая страница</p>
+<script>
+var result = "", a=8, b=8;
+for (var row = 1; row <= a; row++) {
+  for (var cell = 1; cell <= b; cell++) {
+  if (row % 2 == cell % 2) {result +='#';}
+  else {result +=' ';}
+   
+  }
+  result += "\n";
+}
+alert(result);
+</script> 
+</body>
+</html>
