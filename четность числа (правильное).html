@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Проверка на четность</title>
+
+<script>
+//чегота не работает после ввода переменной
+var a;	
+a=parseInt(prompt("Введите число для проверки на четность ", 10));
+function chetnost(a) {
+	a=Math.abs(a);
+	if (a==0) alert ('true');
+	else if (a==1) alert ('false');
+	else chetnost(a-2);
+}
+chetnost(a)
+</script>
+</head>
+<body>
+	
+</body>
+</html>
