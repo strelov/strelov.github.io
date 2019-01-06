@@ -1,0 +1,65 @@
+body {
+    font-family: "Playfair Display", "Arial", sans-serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  header a {
+    color: #626262;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+  }
+
+  header a:hover {
+    color: #03a9f4; 
+  }
+
+  li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+.ubuntu {
+    font-family: "Ubuntu", "Arial", sans-serif;
+    color: #c7c1b6;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px; 
+    text-transform: uppercase;  
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 36px; 
+    font-weight: 400;
+
+}
+
+.block {
+    display: inline-block;
+    width: 35%;
+    margin-left: 12%;
+    margin-right: 6%; 
+          
+   }
+
+.block2 {
+    display: inline-block;
+    width: calc(35% - 4px);
+    margin-right: 12%;
+     
+    
+    }
+
+ 
+
+footer { 
+    text-align: center;
+}
+
+img
+{
+    width: 100%;
+}
